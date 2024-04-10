@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 	box-sizing: border-box}
+.col-1 { width: 8.33%}
+.col-2{ width:16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+.row 
+{
+	display:flex; 
+	flex-wrap:wrap
+}
+[class*="col-"]
+{
+	padding: 15px;
+	border: 1px solid red
+}
+.p-0{ padding: 0}
+.p-5{ padding: 5px}
+.p-10{ padding: 10px}
+.pl-9{ padding-left: 90px}
+.pl-12{padding-left: 125px}
+.mt-50{padding: 15px}
+
+.container { width: 80%; margin: auto}
+.img-100
+{
+	width: 100%; 
+	height: auto
+}
+.bg-xam
+{
+	background: #F8F8F8
+}
+.mx-auto { margin:0 auto}/* dẩy box vào giữa (ngang)*/
+.text-center{ text-align: center} /*canh text vào giửa*/
+.text-right{ text-align: right}/*canh text qua phai*/
+
+/*-- thu vien cho bố cục flex*/
+.d-flex{ display: flex}
+/*--- đẩy các cột/ đối tượng trong flex theo chiều ngang*/
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-right{ justify-content: flex-end}
+/*------------- đẩy các cột canh theo chiều dọc----*/
+.align-items-center{ align-items: center}
+.align-items-end{ align-items: flex-end}
+/*-------------hướng đảo của cac cột trong row co flex----*/
+.row-revese {flex-direction: row-reverse}
+
+
+.bnt-primary-outline{
+    border: 3px #4763f6 solid;
+    padding:10px 20px;
+    font-size: 1,5rem;
+    transition: all 0,5s;
+    color:#FFFFFF;
+    background-color: #4763f6;
+  
+}
+.bnt-primary-outline:hover{
+    background: #4763f6;
+    color:#000000
+}
+
+.text-w{color:white}
+
+
+
+
+
+

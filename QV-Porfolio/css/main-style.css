@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    scroll-behavior: smooth;
+scroll-padding-top:3rem
+}
+body
+{font-family: Lora,Gatham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ font-size: 15px;
+  background-image: url("../img/2893.jpg");
+  margin:0 ; 
+      background: #FFFFFF;}
+#home{background: #FFFFFF;background-position: right bottom;	background-size: cover;	background-repeat: repeat; background-attachment: fixed;}
+
+#contact{background-image:url("../img/5655049.jpg")}
